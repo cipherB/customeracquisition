@@ -3,34 +3,26 @@ import Search from '../assets/search.png';
 
 const SixthSection = () => {
   return (
-    <div className='bg-palette1 pt-20 pb-[100px] flex justify-center' >
+    <div className='bg-palette1 pt-20 pb-[140px] md:pb-[100px] flex justify-center px-4 md:px-0' >
       <div>
         <div className='flex justify-center' >
-          <h2 className='text-center mb-20 bg-background font-black w-[421.36px] text-6xl' >
+          <h2 
+            className='text-center md:mb-20 bg-background font-black 
+            md:w-[421.36px] text-[45px] md:text-6xl w-auto mb-10' 
+          >
             How it works
           </h2>
         </div>
-        <div className='flex items-center justify-center gap-16 mb-10'>
+        <div className='flex items-center justify-between md:justify-center gap-4 md:gap-16 mb-10'>
           <div className='flex flex-col items-center gap-1.5' >
             <div 
               className='flex justify-center items-center bg-background w-[50px] 
               h-[50px] rounded-full shadow-xl' 
             >
-              <p className='font-bold text-palette3 text-xl' >1</p>
+              <p className='font-bold text-palette3 md:text-xl text-[17px]' >1</p>
             </div>
-            <div className='w-[148.66px] bg-background' >
-              <p className='text-center text-[30px] font-extrabold' >Step one</p>
-            </div>
-          </div>
-          <div className='flex flex-col items-center gap-1.5 opacity-50' >
-            <div 
-              className='flex justify-center items-center bg-background w-[50px] 
-              h-[50px] rounded-full shadow-xl' 
-            >
-              <p className='font-bold text-palette3 text-xl' >2</p>
-            </div>
-            <div className='w-[148.66px] bg-background' >
-              <p className='text-center text-[30px] font-extrabold' >Step two</p>
+            <div className='w-auto md:w-[148.66px] bg-background' >
+              <p className='text-center md:text-[30px] font-extrabold' >Step one</p>
             </div>
           </div>
           <div className='flex flex-col items-center gap-1.5 opacity-50' >
@@ -38,19 +30,30 @@ const SixthSection = () => {
               className='flex justify-center items-center bg-background w-[50px] 
               h-[50px] rounded-full shadow-xl' 
             >
-              <p className='font-bold text-palette3 text-xl' >3</p>
+              <p className='font-bold text-palette3 md:text-xl text-[17px]' >2</p>
             </div>
-            <div className='w-[148.66px] bg-background' >
-              <p className='text-center text-[30px] font-extrabold' >Step three</p>
+            <div className='w-auto md:w-[148.66px] bg-background' >
+              <p className='text-center md:text-[30px] font-extrabold' >Step two</p>
+            </div>
+          </div>
+          <div className='flex flex-col items-center gap-1.5 opacity-50' >
+            <div 
+              className='flex justify-center items-center bg-background w-[50px] 
+              h-[50px] rounded-full shadow-xl' 
+            >
+              <p className='font-bold text-palette3 md:text-xl text-[17px]' >3</p>
+            </div>
+            <div className='w-auto md:w-[148.66px] bg-background' >
+              <p className='text-center md:text-[30px] font-extrabold' >Step three</p>
             </div>
           </div>
         </div>
         <div 
-          className='w-[1170px] h-[563.55px] rounded-xl search-contain grid grid-cols-2
-          py-10 px-20' 
+          className='md:w-[1170px] md:h-[563.55px] rounded-xl search-contain md:grid md:grid-cols-2
+          py-10 md:px-20 w-full px-[15px] flex flex-col h-auto' 
         >
           <div>
-            <h2 className="font-bold text-5xl">
+            <h2 className="font-bold text-[32px] md:text-5xl">
               <span className="text-palette2">10 minute set-up:</span>
               <br />Identify your industry.
             </h2>

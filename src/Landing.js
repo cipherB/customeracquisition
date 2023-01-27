@@ -16,16 +16,16 @@ const Landing = () => {
       <div className='fixed top-0 w-full z-50'>
         <Navbar />
       </div>
-      <div className='mt-[179px] mb-[86px]' >
+      <div className='md:mt-[179px] mt-[70px] mb-10 md:mb-[86px]' >
         <LandSection />
       </div>
-      <div className=' mb-[86px]' >
+      <div className='mb-[70px] md:mb-[86px]' >
         <SecSection />
       </div>
-      <div className=' mb-[86px]' >
+      <div className='md:mb-[86px]' >
         <ThirdSection />
       </div>
-      <div className=' mb-[86px]' >
+      <div className=' md:mb-[86px]' >
         <FourthSection />
       </div>
       <div>

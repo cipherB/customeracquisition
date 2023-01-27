@@ -117,6 +117,45 @@ body {
   background-image: linear-gradient(138deg,#747474,#1a1a1a);
   box-shadow: 0 4px 10px 0 rgb(0 0 0 / 25%);
 }
+.landing-name-mob {
+  background-image: linear-gradient(97deg,#7540ee,#bb5bb1 53%,#ffb6db);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 900;
+  letter-spacing: -.5px;
+}
+
+.third-title-mob {
+  margin-bottom: 40px;
+  background-image: linear-gradient(104deg,#7540ee,#7540ee 24%,#bb5bb1 48%,#bb5bb1 62%,#ffb6db 82%,#ffb6db 100%,#ffb6db);
+  color: #e0dfdf;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.eight-title-mob {
+  background-image: linear-gradient(117deg,#7540ee,#bb5bb1 52%,#ffb6db);
+  color: #f8faff;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 900;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:700) {
+  .third-section {
+    background-position: left;
+  }
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

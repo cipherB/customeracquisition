@@ -3,9 +3,9 @@ import Logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
-    <div className='bg-background border-t border-black pt-16 px-8' >
-      <div className='mx-[88px]'>
-        <div className='grid grid-cols-4' >
+    <div className='bg-background border-t border-black pt-16 md:px-8 px-2' >
+      <div className='md:mx-[88px]'>
+        <div className='grid md:grid-cols-4 grid-cols-1' >
           <div className='px-5 pb-16' >
             <img src={Logo} alt="logo" className='w-[260px] h-[23.4px] mb-6' />
             <p class="text-sm text-[#d1d1d1]">
@@ -29,14 +29,14 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className='mt-4 mx-[15px] flex gap-x-6 py-8' >
-          <div className='text-[#777] text-[9px] py-0.5 border-r border-white pr-6' >
+        <div className='mt-4 mx-[15px] flex gap-x-6 py-8 flex-wrap' >
+          <div className='text-[#777] text-[9px] py-0.5 border-r border-white md:pr-6 pr-2' >
             Powered by <span className="text-palette2 uppercase"> Customer Acquisition</span>
           </div>
-          <div className='text-[#777] text-[9px] py-0.5 border-r border-white pr-6' >
+          <div className='text-[#777] text-[9px] py-0.5 border-r border-white md:pr-6 pr-2' >
             Crafted by <span className="text-palette2 uppercase"> Customer Acquisition Labs</span>
           </div>
-          <div className='text-[#777] text-[9px] py-0.5 border-r border-white pr-6' >
+          <div className='text-[#777] text-[9px] py-0.5 border-r border-white md:pr-6 pr-2' >
             Our <span className="text-palette2 uppercase"> PRIVACY POLICY</span>
           </div>
           <div className='text-[#777] text-[9px] py-0.5 ' >

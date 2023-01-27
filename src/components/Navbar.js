@@ -10,7 +10,8 @@ const Navbar = () => {
     <div className='w-full h-[48px] px-5 md:h-[101px] md:px-16 flex justify-between items-center 
     bg-background' >
         <a href="#home">
-          <img src={Logo} alt="logo" className='cursor-pointer w-[140px] h-[20px] -ml-3 md:ml-0' />
+          <img src={Logo} alt="logo" className='cursor-pointer 
+          w-[166.73px] h-[15px] md:w-[140px] md:h-[20px] md:ml-0' />
         </a>
       <ul className='md:flex list-none gap-x-8 items-center hidden' >
         <li >
