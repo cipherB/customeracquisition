@@ -1,4 +1,8 @@
 import React from 'react';
+import SectionFour from './components/correction/SectionFour';
+import SectionOne from './components/correction/SectionOne';
+import SectionThree from './components/correction/SectionThree';
+import SectionTwo from './components/correction/SectionTwo';
 import EightSection from './components/EightSection';
 import FifthSection from './components/FifthSection';
 import Footer from './components/Footer';
@@ -13,13 +17,25 @@ import ThirdSection from './components/ThirdSection';
 const Landing = () => {
   return (
     <div>
-      <div className='fixed top-0 w-full z-50'>
+      <div className='fixed top-0 z-50 w-full'>
         <Navbar />
       </div>
       <div className='md:mt-[179px] mt-[120px] mb-10 md:mb-[86px]' >
         <LandSection />
       </div>
       <div className='mb-[70px] md:mb-[86px]' >
+        <SectionOne />
+      </div>
+      <div className='mb-[70px] md:mb-[86px]' >
+        <SectionTwo />
+      </div>
+      <div className='mb-[70px] md:mb-[86px]' >
+        <SectionThree />
+      </div>
+      <div className='mb-[70px] md:mb-[86px]' >
+        <SectionFour />
+      </div>
+      {/* <div className='mb-[70px] md:mb-[86px]' >
         <SecSection />
       </div>
       <div className='md:mb-[86px]' >
@@ -39,7 +55,7 @@ const Landing = () => {
       </div>
       <div className='' >
         <EightSection />
-      </div>
+      </div> */}
       <div className='' >
         <Footer />
       </div>

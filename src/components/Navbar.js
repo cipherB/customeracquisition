@@ -10,30 +10,28 @@ const Navbar = () => {
   return (
     <div className='w-full h-[48px] px-5 md:h-[101px] md:px-16 flex justify-between items-center 
     bg-background' >
-        <a href="#home">
+        <a href="#home" className='md:pl-16'>
           <img src={Logo} alt="logo" className='cursor-pointer 
           w-[166.73px] h-[15px] md:w-[140px] md:h-[20px] md:ml-0' />
         </a>
-      <ul className='md:flex list-none gap-x-8 items-center hidden' >
+      <ul className='items-center hidden list-none md:flex gap-x-8' >
         <li >
-          <a className='cursor-pointer font-bold text-palette1' href="#services" >Product Tour</a>
+          <a className='font-bold cursor-pointer text-palette1' href="#services" >Product Tour</a>
         </li>
         <li >
-          <a className='cursor-pointer font-bold hover:text-primary' href="#about" >Case Studies</a>
+          <a className='font-bold cursor-pointer hover:text-primary' href="#about" >Case Studies</a>
         </li>
         <li >
-          <a className='cursor-pointer font-bold hover:text-primary' href="#faq" >FAQ</a>
+          <a className='font-bold cursor-pointer hover:text-primary' href="#faq" >FAQ</a>
         </li>
         <li className='flex items-center gap-x-2' >
           <button 
-            className='bg-transparent rounded-md px-6 py-3 font-semibold
-            cursor-pointer border border-palette1 text-palette1' 
+            className='px-6 py-3 font-semibold bg-transparent border rounded-md cursor-pointer border-palette1 text-palette1' 
             >
               Login
           </button>
           <button 
-            className='bg-palette1 border-none rounded-md px-6 py-3 text-background font-semibold
-            cursor-pointer flex items-center gap-x-2 ' 
+            className='flex items-center px-6 py-3 font-semibold border-none rounded-md cursor-pointer bg-palette1 text-background gap-x-2 ' 
             >
               <BsLightningFill />
               Get Started
@@ -43,7 +41,7 @@ const Navbar = () => {
       <div className='block md:hidden' >
         {
           !openMenu ? <AiOutlineMenu 
-            className='text-palette1 text-3xl font-bold' 
+            className='text-3xl font-bold text-palette1' 
             onClick={()=>setOpenMenu(true)}
           /> :
           <motion.div
