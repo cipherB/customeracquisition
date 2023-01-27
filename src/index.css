@@ -13,6 +13,63 @@ body {
   overflow-x: hidden !important;
 }
 
+.landing {
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif !important;
+}
+
+.land-btn {
+  border-radius: 6px;
+  background-color: transparent;
+  background-image: linear-gradient(103deg,#80ffdb,#49bea1 50%,#37d2c0);
+  box-shadow: inset 0 0 20px 20px transparent;
+  -webkit-transition: box-shadow .2s;
+  transition: box-shadow .2s;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px 2px #156b4a;
+}
+
+.landing-top {
+  margin-bottom: 12px;
+  border-radius: 4px;
+  background-image: -webkit-gradient(linear,left top,right top,from(#bb5bb1),to(#f99cb8));
+  background-image: linear-gradient(90deg,#bb5bb1,#f99cb8);
+  color: #f99cb8;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-top-mob {
+  margin-bottom: 12px;
+  border-radius: 4px;
+  background-image: -webkit-gradient(linear,left top,right top,from(#bb5bb1),to(#f99cb8));
+  background-image: linear-gradient(90deg,#bb5bb1,#f99cb8);
+  color: #f99cb8;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-ex {
+  background-image: linear-gradient(103deg,#7540ee,#bb5bb1 53%,#ffb6db);
+  color: #ffb6db;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .landing-name {
   background-image: linear-gradient(97deg,#7540ee,#bb5bb1 53%,#ffb6db);
   -webkit-background-clip: text;
