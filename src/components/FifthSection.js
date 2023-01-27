@@ -7,8 +7,8 @@ const FifthSection = () => {
   const { width } = useScreenSize();
   return (
     <div 
-      className='flex pl-[30px] pr-[30px] md:pr-0 md:pl-16 md:justify-between items-center flex-col-reverse
-      md:flex-row bg-background py-[120px] md:py-auto' 
+      className='flex px-0 md:pr-0 md:pl-16 md:justify-between items-center flex-col-reverse
+      md:flex-row bg-background py-[120px] md:py-auto overflow-x-hidden' 
     >
       <div className='md:w-[486.56px]' >
         <h2 
@@ -33,7 +33,7 @@ const FifthSection = () => {
         </div>
       </div>
       <InViewAnimateRight>
-        <img src={Desktop} alt="desktop" className='w-full 
+        <img src={Desktop} alt="desktop" className='w-[310px] 
         md:w-[1000px] h-[228.56px] md:h-[662.4px]' />
       </InViewAnimateRight>
     </div>

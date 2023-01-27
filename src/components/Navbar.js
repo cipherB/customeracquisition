@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className='block md:hidden' >
         {
           !openMenu ? <AiOutlineMenu 
-            className='text-[#506690] text-3xl font-bold' 
+            className='text-palette1 text-3xl font-bold' 
             onClick={()=>setOpenMenu(true)}
           /> :
           <motion.div
@@ -49,7 +49,7 @@ const Navbar = () => {
             animate={{rotate:360}}
           >
             <AiOutlineClose 
-              className={`text-[#506690] text-3xl font-bold`}
+              className={`text-palette1 text-3xl font-bold`}
               onClick={()=>setOpenMenu(false)}
             />
           </motion.div>
