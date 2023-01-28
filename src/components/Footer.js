@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/CA.png';
 import { BsFacebook, BsInstagram, BsLinkedin, BsYoutube, BsTwitter } from 'react-icons/bs';
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='md:mx-[88px]'>
         <div className='grid grid-cols-1 md:grid-cols-4' >
           <div className='px-5 pb-16' >
-            <img src={Logo} alt="logo" className='w-[260px] h-[23.4px] mb-6' />
+            <img src={Logo} alt="logo" className='w-[260px] h-[72.4px] mb-6' />
             <p class="text-sm text-[#d1d1d1]">
               <strong>Invent. Innovate. Improve. 
               </strong>The <strong>iiintent</strong> code that drives our products, 

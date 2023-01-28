@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from "../assets/logo.png";
+import Logo from "../assets/CA.png";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { motion } from "framer-motion";
 import { BsLightningFill } from "react-icons/bs";
@@ -12,10 +12,10 @@ const Navbar = () => {
     bg-background' >
         <a href="#home" className='md:pl-16'>
           <img src={Logo} alt="logo" className='cursor-pointer 
-          w-[166.73px] h-[15px] md:w-[140px] md:h-[20px] md:ml-0' />
+          w-[166.73px] md:w-[140px] h-[48px] md:ml-0' />
         </a>
       <ul className='items-center hidden list-none md:flex gap-x-8' >
-        <li >
+        {/* <li >
           <a className='font-bold cursor-pointer text-palette1' href="#services" >Product Tour</a>
         </li>
         <li >
@@ -23,13 +23,13 @@ const Navbar = () => {
         </li>
         <li >
           <a className='font-bold cursor-pointer hover:text-primary' href="#faq" >FAQ</a>
-        </li>
+        </li> */}
         <li className='flex items-center gap-x-2' >
-          <button 
+          {/* <button 
             className='px-6 py-3 font-semibold bg-transparent border rounded-md cursor-pointer border-palette1 text-palette1' 
             >
               Login
-          </button>
+          </button> */}
           <button 
             className='flex items-center px-6 py-3 font-semibold border-none rounded-md cursor-pointer bg-palette1 text-background gap-x-2 ' 
             >
@@ -65,9 +65,9 @@ const Navbar = () => {
           <li className='text-[#f8faff] font-bold py-3' >
             <a href="#services" 
               onClick={()=>setOpenMenu(false)}
-            >Product Tour</a>
+            >Get Started</a>
           </li>
-          <li className='text-[#f8faff] font-bold py-3' >
+          {/* <li className='text-[#f8faff] font-bold py-3' >
             <a href="#about" 
               onClick={()=>setOpenMenu(false)}
             >Case Studies</a>
@@ -76,7 +76,7 @@ const Navbar = () => {
             <a href="#offer" 
               onClick={()=>setOpenMenu(false)}
             >FAQs</a>
-          </li>
+          </li> */}
         </motion.ul>
       </div>
     </div>

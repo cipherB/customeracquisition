@@ -1,5 +1,5 @@
 import React from 'react';
-import Desktop from '../../assets/desktopIllustrate.png';
+import Desktop from '../../assets/caseStudies.jpg';
 
 const SectionThree = () => {
   return (

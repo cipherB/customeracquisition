@@ -32,7 +32,7 @@ const LandSection = () => {
           <span className='font-semibold' > iintent</span>
         </p> */}
       </div>
-      <form className='w-full flex flex-col md:flex-row gap-y-[15px] gap-x-4 justify-center' >
+      <form className='w-full flex flex-col md:flex-row gap-y-[15px] gap-x-4 justify-center items-center' >
         <input 
           type="email"
           name="email"
