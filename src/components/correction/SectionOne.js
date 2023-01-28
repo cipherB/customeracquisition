@@ -4,7 +4,7 @@ import InViewAnimateRight from '../InViewAnimateRight';
 
 const SectionOne = () => {
   return (
-    <div className='md:pl-16 bg-background' >
+    <div className='overflow-x-hidden md:pl-16 bg-background' >
       <div className='flex flex-col items-center grid-cols-2 md:flex-row md:pl-10 md:grid gap-y-10' >
         <div>
           {/* <p class="mb-2.5 text-[#161338] font-bold text-center md:text-left">

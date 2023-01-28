@@ -25,7 +25,7 @@ const InViewAnimateRight = ({children}) => {
   })
 
   return (
-    <div ref={ref} >
+    <div ref={ref} style={{overflowX:"hidden"}} >
       <motion.div animate={animation} >{children} </motion.div>
     </div>
   )
